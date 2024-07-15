@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média de Notas</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora de Média de Notas</h1>
+    <input type="number" id="nota" placeholder="Digite a nota do aluno">
+    <button onclick="adicionarNota()">Adicionar Nota</button>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <h2>Notas dos Alunos</h2>
+    <ul id="listaNotas">
+        <!-- As notas serão preenchidas pelo JavaScript -->
+    </ul>
+    <h2>Média das Notas</h2>
+    <p id="mediaNotas">0.00</p>
+</body>
+</html>
