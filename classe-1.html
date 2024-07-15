@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array de Colegas de Classe</title>
+    <script>
+        // Criação do array com os nomes dos colegas de classe
+        const colegasDeClasse = ["Ana", "Bruno", "Carlos", "Diana", "Eduardo", "Fernanda"];
+
+        // Função para exibir os nomes dos colegas de classe
+        function mostrarNomes() {
+            document.getElementById("nome0").textContent = colegasDeClasse[0];  // Acessa "Ana"
+            document.getElementById("nome1").textContent = colegasDeClasse[1];  // Acessa "Bruno"
+            document.getElementById("nome2").textContent = colegasDeClasse[2];  // Acessa "Carlos"
+            document.getElementById("nome3").textContent = colegasDeClasse[3];  // Acessa "Diana"
+            document.getElementById("nome4").textContent = colegasDeClasse[4];  // Acessa "Eduardo"
+            document.getElementById("nome5").textContent = colegasDeClasse[5];  // Acessa "Fernanda"
+        }
+    </script>
+</head>
+<body onload="mostrarNomes()">
+    <h1>Nomes dos Colegas de Classe</h1>
+    <ul>
+        <li id="nome0"></li>
+        <li id="nome1"></li>
+        <li id="nome2"></li>
+        <li id="nome3"></li>
+        <li id="nome4"></li>
+        <li id="nome5"></li>
+    </ul>
+</body>
+</html>
